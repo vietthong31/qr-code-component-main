@@ -1,0 +1,23 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietthong31/qr-code-component-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietthong31/qr-code-component-main/issues"
+  },
+  "homepage": "https://github.com/vietthong31/qr-code-component-main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
